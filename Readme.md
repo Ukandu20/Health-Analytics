@@ -146,13 +146,13 @@ As the **next phase**, we will conduct **advanced statistical tests**, refine **
 git clone https://github.com/Ukandu20/Health-Analytics.git
 cd Lung-Cancer-Risk-Analysis
 
-2️⃣ Install dependencies
+## 2️⃣ Install Dependencies  
+To install the required packages, run the following command:  
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-3️⃣ Run the Jupyter Notebook
+
+## 3️⃣ Run the Jupyter Notebook
 
 bash
 Copy
