@@ -139,3 +139,38 @@ As the **next phase**, we will conduct **advanced statistical tests**, refine **
 
 ---
 
+## 📌 How to Use This Repository  
+
+### **1️⃣ Clone the Repository**
+
+git clone https://github.com/Ukandu20/Health-Analytics.git
+cd Lung-Cancer-Risk-Analysis
+
+### **2️⃣ Install Dependencies**
+To install the required packages, run the following command:  
+
+
+pip install -r requirements.txt
+
+### 3️⃣ Run the Jupyter Notebook
+
+
+jupyter notebook
+
+
+### 4️⃣ Follow the steps in the notebook to:
+✔ Explore the dataset
+✔ Perform EDA & hypothesis testing
+✔ Visualize trends & correlations
+✔ Build predictive models
+
+📌 Contributing
+💡 Ideas for improvement? Feel free to submit a pull request or open an issue!
+
+📌 Data Source
+(https://www.kaggle.com/datasets/shantanugarg274/lung-cancer-prediction-dataset)
+
+🚀 Contact & Support
+For any inquiries, reach out via:
+📩 Email: (mailto:okechiukandu@gmail.com)
+💼 LinkedIn: (https://www.linkedin.com/in/okechiukandu/)
