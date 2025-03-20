@@ -159,12 +159,13 @@ jupyter notebook
 
 ### 4️⃣ Follow the steps in the notebook
 
-✔ Explore the dataset
-✔ Perform EDA & hypothesis testing
-✔ Visualize trends & correlations
-✔ Build predictive models
+✔ Explore the dataset.
+✔ Perform EDA & hypothesis testing.
+✔ Visualize trends & correlations.
+✔ Build predictive models.
 
 📌 Contributing
+
 💡 Ideas for improvement? Feel free to submit a pull request or open an issue!
 
 📌 Data Source
@@ -172,6 +173,8 @@ jupyter notebook
 [https://www.kaggle.com/datasets/shantanugarg274/lung-cancer-prediction-dataset](https://www.kaggle.com/datasets/shantanugarg274/lung-cancer-prediction-dataset)
 
 🚀 Contact & Support
+
 For any inquiries, reach out via:
-📩 Email: (mailto:okechiukandu@gmail.com)
-💼 LinkedIn: [Okechi Ukandu](https://www.linkedin.com/in/okechiukandu/)
+
+- 📩 Email: [okechiukandu@gmail.com](mailto:okechiukandu@gmail.com)
+- 💼 LinkedIn: [Okechi Ukandu](https://www.linkedin.com/in/okechiukandu/)
