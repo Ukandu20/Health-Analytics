@@ -128,7 +128,8 @@ We conduct **hypothesis tests** to confirm which factors significantly influence
 
 ---
 
-## 📌 Summary  
+## 📌 Summary
+
 This project provides **data-driven insights** into lung disease risk factors, aiming to improve **prevention, screening, and early diagnosis**. By conducting:  
 
 ✔ **Exploratory Data Analysis (EDA)** – Identifying trends and correlations.  
@@ -143,22 +144,21 @@ As the **next phase**, we will conduct **advanced statistical tests**, refine **
 
 ### **1️⃣ Clone the Repository**
 
-git clone https://github.com/Ukandu20/Health-Analytics.git
-cd Lung-Cancer-Risk-Analysis
+- `git clone [https://github.com/Ukandu20/Health-Analytics.git](https://github.com/Ukandu20/Health-Analytics.git)`
+- cd Lung-Cancer-Risk-Analysis
 
 ### **2️⃣ Install Dependencies**
-To install the required packages, run the following command:  
 
+To install the required packages, run the following command:  
 
 pip install -r requirements.txt
 
 ### 3️⃣ Run the Jupyter Notebook
 
-
 jupyter notebook
 
+### 4️⃣ Follow the steps in the notebook
 
-### 4️⃣ Follow the steps in the notebook to:
 ✔ Explore the dataset
 ✔ Perform EDA & hypothesis testing
 ✔ Visualize trends & correlations
@@ -168,9 +168,10 @@ jupyter notebook
 💡 Ideas for improvement? Feel free to submit a pull request or open an issue!
 
 📌 Data Source
-(https://www.kaggle.com/datasets/shantanugarg274/lung-cancer-prediction-dataset)
+
+[https://www.kaggle.com/datasets/shantanugarg274/lung-cancer-prediction-dataset](https://www.kaggle.com/datasets/shantanugarg274/lung-cancer-prediction-dataset)
 
 🚀 Contact & Support
 For any inquiries, reach out via:
 📩 Email: (mailto:okechiukandu@gmail.com)
-💼 LinkedIn: (https://www.linkedin.com/in/okechiukandu/)
+💼 LinkedIn: [Okechi Ukandu](https://www.linkedin.com/in/okechiukandu/)
