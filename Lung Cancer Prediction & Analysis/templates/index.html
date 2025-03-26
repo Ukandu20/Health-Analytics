@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lung Cancer Risk Prediction</title>
+</head>
+<body>
+    <h2>🩺 Lung Cancer Risk Prediction</h2>
+
+    <form action="/predict" method="post">
+        <label>Age:</label>
+        <input type="number" name="AGE" required><br>
+
+        <label>Smoking:</label>
+        <select name="SMOKING">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+
+        <label>Finger Discoloration:</label>
+        <select name="FINGER_DISCOLORATION">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+
+        <label>Mental Stress:</label>
+        <select name="MENTAL_STRESS">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+
+        <label>Exposure to Pollution:</label>
+        <select name="EXPOSURE_TO_POLLUTION">
+            <option value="0">Low</option>
+            <option value="1">High</option>
+        </select><br>
+
+        <label>Long Term Illness:</label>
+        <select name="LONG_TERM_ILLNESS">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+
+        <label>Energy Level (1-5):</label>
+        <input type="number" name="ENERGY_LEVEL" min="1" max="5" required><br>
+
+        <label>Immune Weakness:</label>
+        <select name="IMMUNE_WEAKNESS">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+
+        <label>Breathing Issue:</label>
+        <select name="BREATHING_ISSUE">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+
+        <label>Alcohol Consumption:</label>
+        <select name="ALCOHOL_CONSUMPTION">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+
+        <label>Throat Discomfort:</label>
+        <select name="THROAT_DISCOMFORT">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+
+        <label>Oxygen Saturation:</label>
+        <input type="number" name="OXYGEN_SATURATION" required><br>
+
+        <label>Chest Tightness:</label>
+        <select name="CHEST_TIGHTNESS">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+
+        <label>Family History of Lung Cancer:</label>
+        <select name="FAMILY_HISTORY">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+
+        <label>Smoking Family History:</label>
+        <select name="SMOKING_FAMILY_HISTORY">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br>
+
+        <label>Stress Immune Level (1-5):</label>
+        <input type="number" name="STRESS_IMMUNE" min="1" max="5" required><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <h3>🩺 Prediction Result: {{ prediction }}</h3>
+        <h4>🔍 Chance of disease: {{ confidence }}</h4>
+    {% endif %}
+</body>
+</html>
